@@ -200,7 +200,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  /* font-family: georgia, serif; */
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -229,9 +229,9 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  /* color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -619,4 +619,45 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+body{
+  background: #450780;
+}
+
+.footer{
+  color: #DED3CF;
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+
+.logo{
+color: #DED3CF;
+font-weight: bold;
+font-size: 1.5rem;
+text-transform: uppercase;
+}
+
+p{
+  color: #DED3CF
+}
+
+button{
+  background:#9B59B6;
+  border-color: transparent;
+  font-weight: bold;
+}
+
+.center{
+text-align: center;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%); /* for IE 9 */
+-webkit-transform: translate(-50%, -50%); /* for Safari */
 }
