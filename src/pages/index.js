@@ -10,8 +10,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="center">
         <h1 className="logo">Brandlyst</h1>
-        <p>Import products from ShopStyle to your Shopify store.</p>
-        <button>Get Shopify App</button>
+        <p>Organize all your brand assets from one beautiful dashboard.</p>
       </div>
   </Layout>
 )
